@@ -1,5 +1,7 @@
+import mongoose from "mongoose";
+
 export class BookDto{
     title:string;
-    author:string;
+    author:mongoose.Types.ObjectId;
     summ:string;
 }
